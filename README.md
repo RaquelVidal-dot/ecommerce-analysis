@@ -53,6 +53,16 @@ El sistema logístico muestra un comportamiento estable, con la mayoría de entr
 - Matplotlib  
 - Jupyter Notebook  
 
+## 💼 Business Impact
+
+Este análisis permite a una empresa de e-commerce optimizar su logística, identificar oportunidades de mejora en los tiempos de entrega y mejorar la experiencia del cliente mediante decisiones basadas en datos.
+
+Los resultados ayudan a:
+
+- Reducir variabilidad en los tiempos de entrega  
+- Identificar incidencias logísticas puntuales  
+- Mejorar la eficiencia operativa  
+- Definir KPIs logísticos más precisos  
 ---
 
 ## 📁 Estructura del proyecto
