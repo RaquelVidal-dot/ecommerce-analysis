@@ -1,72 +1,72 @@
-<<<<<<< HEAD
-# 📦 Análisis de tiempos de entrega en e-commerce
+# 📊 E-commerce Delivery Time Analysis
 
-## 🧩 Descripción
+## 📌 Project Overview
 
-Análisis de tiempos de entrega en un dataset de e-commerce con el objetivo de evaluar la eficiencia logística y detectar posibles retrasos en los pedidos.
+This project analyzes delivery times in an e-commerce dataset to evaluate logistics efficiency and identify patterns in order fulfillment.
 
----
-
-## 📊 Dataset
-
-Dataset de e-commerce de Olist, que contiene información sobre pedidos, clientes y tiempos de entrega.
+The goal is to transform raw data into actionable insights using Python and exploratory data analysis (EDA).
 
 ---
 
-## 🛠️ Proceso
+## 📂 Dataset Description
 
-- Carga de datos desde CSV
-- Exploración inicial del dataset
-- Limpieza y transformación de datos
-- Conversión de variables de fecha a formato datetime
-- Creación de la métrica de tiempo de entrega (delivery time)
-- Análisis estadístico descriptivo
-- Identificación de outliers
+The dataset contains information about customer orders, including purchase dates, delivery dates, and estimated delivery times.
+
+A key variable was engineered:
+
+- `delivery_time_days`: number of days between purchase and delivery
 
 ---
 
-## 📈 Resultados
+## 🛠️ Tools & Technologies
 
-- Tiempo medio de entrega: ~12 días  
-- Mediana: ~10 días  
-- El 75% de los pedidos se entrega en menos de 15 días  
-- ~0.6% de pedidos con retrasos superiores a 50 días  
-
----
-
-## 📊 Visualización
-
-![Distribución del tiempo de entrega](images/delivery_time_hist.png)
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- Git & GitHub
 
 ---
 
-## 💡 Conclusiones
+## 📊 Key Metrics
 
-El sistema logístico muestra un comportamiento estable, con la mayoría de entregas concentradas entre 10 y 15 días. Los retrasos extremos son poco frecuentes, aunque representan oportunidades de mejora en el proceso operativo.
+- Average delivery time: ~12 days  
+- Median delivery time: ~10 days  
+- 75% of orders delivered in less than 15 days  
+- Maximum observed delay: 209 days  
 
 ---
 
-## 🧰 Herramientas utilizadas
+## 📈 Key Insights
 
-- Python  
-- Pandas  
-- Matplotlib  
-- Jupyter Notebook  
+- Most orders are delivered within a stable range of 8 to 15 days.
+- The distribution shows a balanced system with no extreme skew.
+- Orders with delays over 50 days are very rare (<1%).
+- 52.4% of orders are delivered within 10 days.
 
-## 💼 Business Impact
-
-Este análisis permite a una empresa de e-commerce optimizar su logística, identificar oportunidades de mejora en los tiempos de entrega y mejorar la experiencia del cliente mediante decisiones basadas en datos.
-
-Los resultados ayudan a:
-
-- Reducir variabilidad en los tiempos de entrega  
-- Identificar incidencias logísticas puntuales  
-- Mejorar la eficiencia operativa  
-- Definir KPIs logísticos más precisos  
 ---
 
-## 📁 Estructura del proyecto
-=======
-# ecommerce-analysis
-Proyecto de análisis de ventas y comportamiento de clientes. SQL + Power BI.
->>>>>>> a88d45a00edc07491b4ae7b963386b559f160efb
+## 💡 Business Impact
+
+- Optimize delivery processes to reduce variability  
+- Identify and investigate delay cases  
+- Improve customer experience  
+- Define logistics KPIs based on data  
+
+---
+
+## 🔍 Limitations
+
+- No geographic or carrier data included  
+- No external operational variables  
+- Descriptive analysis only  
+
+---
+
+## 🚀 Future Improvements
+
+- Predictive modeling for delivery times  
+- Segmentation by customer or region  
+- Dashboard creation (Power BI / Tableau)  
+
+Note: This analysis was developed as part of a personal data analytics learning project.
