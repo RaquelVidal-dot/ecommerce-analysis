@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📦 Análisis de tiempos de entrega en e-commerce
 
 ## 🧩 Descripción
@@ -55,3 +56,7 @@ El sistema logístico muestra un comportamiento estable, con la mayoría de entr
 ---
 
 ## 📁 Estructura del proyecto
+=======
+# ecommerce-analysis
+Proyecto de análisis de ventas y comportamiento de clientes. SQL + Power BI.
+>>>>>>> a88d45a00edc07491b4ae7b963386b559f160efb
